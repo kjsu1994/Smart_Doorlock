@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Smart_Doorlock</string>
+    <string name="menu">Menu</string>
 </resources>
