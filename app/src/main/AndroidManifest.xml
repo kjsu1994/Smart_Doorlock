@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Smart_Doorlock">
         <activity
+            android:name=".activity_log"
+            android:exported="false" />
+        <activity
             android:name=".activity_Main"
             android:exported="false" />
         <activity
