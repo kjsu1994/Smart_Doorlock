@@ -40,7 +40,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="입력"
+        android:hint="입력"
         android:textColor="#777777"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
