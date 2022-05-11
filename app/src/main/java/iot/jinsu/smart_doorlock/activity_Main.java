@@ -14,7 +14,7 @@ public class activity_Main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         Button button = (Button) findViewById(R.id.logButton);
-
+        Button button1 = (Button) findViewById(R.id.securityButton);
         button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -23,5 +23,14 @@ public class activity_Main extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        button1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent =  new Intent(activity_Main.this,
+                        ActivitySecuremode.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }

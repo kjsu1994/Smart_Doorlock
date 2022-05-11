@@ -13,7 +13,7 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        moveMain(3);
+        moveMain(2);
     }
     private void moveMain(int sec) {
         new Handler().postDelayed(new Runnable()
