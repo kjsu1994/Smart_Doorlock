@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Smart_Doorlock">
         <activity
+            android:name=".ActivityOpenDoor"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityOtp"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityPwchange"
+            android:exported="false" />
+        <activity
             android:name=".ActivitySecuremode"
             android:exported="false" />
         <activity
